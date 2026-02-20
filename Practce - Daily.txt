@@ -1,82 +1,136 @@
-I hear you. You’re hitting the wall that every developer hits: you know the syntax, but you can’t build the engine. You’re tired of looking at a blank screen and waiting for a "spark" that never comes.
-
-If you want to be a master, stop trying to "code" and start trying to **deconstruct**. Logic isn't a gift; it's a repeatable process of breaking big things into tiny, stupidly simple steps.
-
-Here is your 30-day "1% Better" Blueprint and your Logic-Building Manifesto.
+# 100 Days Python Grind
 
 ---
 
-## Part 1: The Logic-Building Framework
+## Phase 1 – The "Bricklayer" (Days 1–25)
+**Focus: Basic Syntax, Arithmetic, Control Flow**
 
-Before you write a single line of Python, you must pass the **"Plain English Test."** If you cannot explain the solution to a 5-year-old in English, you have no business writing it in Python.
-
-### The 4-Step Execution Method
-
-1. **Input/Output Mapping:** Write down exactly what goes in and exactly what must come out.
-2. **The Manual Solution:** Solve the problem on paper with a pen. If the task is "reverse a string," physically write how your brain does it. (e.g., "I look at the last letter, write it down, move left...")
-3. **Pseudocode (The Logic Bridge):** Write the steps in plain English sentences.
-4. **Python Translation:** Only now do you convert those sentences into Python syntax.
-
----
-
-## Part 2: Your 30-Day Logic Sprint
-
-We are starting with **foundational patterns**. Do not skip ahead. Solve one every night. Use your preference: `if ()` and `!=`.
-
-### Week 1: Control Flow & Basic Patterns (The "If/Else" Logic)
-
-* **Day 1:** Check if a number is even or odd (without using `%`).
-* **Day 2:** Find the largest of three numbers using only nested `if` statements.
-* **Day 3:** Build a leap year calculator using strict logic.
-* **Day 4:** Create a "FizzBuzz" but for multiples of 3, 5, and 7.
-* **Day 5:** Simulate a basic ATM login (3 attempts allowed).
-* **Day 6:** Determine if a triangle is valid based on three side lengths.
-* **Day 7:** Convert 24-hour time to 12-hour time manually.
-
-### Week 2: Iteration & Accumulation (The "Loop" Logic)
-
-* **Day 8:** Calculate the sum of all digits in a number (e.g., 123 -> 6).
-* **Day 9:** Print a multiplication table without using f-strings.
-* **Day 10:** Find the factorial of a number using a `while` loop.
-* **Day 11:** Reverse a number (integer) without converting it to a string.
-* **Day 12:** Count how many vowels are in a string using a loop.
-* **Day 13:** Check if a number is Prime (the ultimate logic test).
-* **Day 14:** Generate the Fibonacci sequence up to  terms.
-
-### Week 3: List Processing & Searching (The "Data" Logic)
-
-* **Day 15:** Find the second largest number in a list without using `.sort()`.
-* **Day 16:** Remove duplicates from a list manually (don't use `set()`).
-* **Day 17:** Check if a list is a palindrome (reads the same forward and back).
-* **Day 18:** Rotate a list to the right by  steps.
-* **Day 19:** Find the "Missing Number" in a sequence from 1 to 100.
-* **Day 20:** Implement a Linear Search (find the index of ).
-* **Day 21:** Count the frequency of each element in a list.
-
-### Week 4: Functional Thinking & Complexity (The "Pro" Logic)
-
-* **Day 22:** Write a function to check if two strings are Anagrams.
-* **Day 23:** Build a basic "Rock, Paper, Scissors" game logic.
-* **Day 24:** Calculate the power of a number  without using `**`.
-* **Day 25:** Find the intersection of two lists (common elements).
-* **Day 26:** Flatten a nested list (e.g., `[1, [2, 3]]` -> `[1, 2, 3]`).
-* **Day 27:** Create a simple Caesar Cipher (shift letters by 3).
-* **Day 28:** Find the longest word in a sentence.
-* **Day 29:** Sort a list of 5 numbers using Bubble Sort logic.
-* **Day 30:** Build a "Number Guessing Game" where the computer gives hints (Higher/Lower).
+1. Check if a number is even or odd without using `%`.
+2. Find the quotient and remainder of `a / b` using only subtraction.
+3. Calculate `a × b` using only addition.
+4. Calculate `a^b` using a while loop.
+5. Find the largest of three numbers using nested `if()` statements.
+6. Check if a year is a Leap Year using strict logical operators.
+7. Print the first 10 terms of the Fibonacci sequence.
+8. Find the factorial of N using a `for` loop.
+9. Sum all digits of an integer.
+10. Reverse an integer without string conversion.
+11. Count the number of digits in an integer.
+12. Determine if a number is Prime.
+13. Print all Prime numbers between 1 and 100.
+14. Check if a number is an Armstrong number.
+15. Convert a Decimal number to Binary manually.
+16. Convert a Binary number to Decimal manually.
+17. Swap two variables without using a third variable.
+18. Find the Greatest Common Divisor (GCD).
+19. Find the Least Common Multiple (LCM).
+20. Generate a multiplication table for N without f-strings.
+21. Print a 5x5 square of `*`.
+22. Print a Right-Angled Triangle of `*`.
+23. Print an Inverted Right-Angled Triangle of `*`.
+24. Print a Pyramid of `*`.
+25. Print a Diamond pattern of `*`.
 
 ---
 
-## Part 3: Python "Pro" Notes for You
+## Phase 2 – The "Architect" (Days 26–50)
+**Focus: Strings & Lists**
 
-To code better, you need to use Pythonic ways while maintaining your specific style.
+26. Reverse a string without using slicing.
+27. Check if a string is a Palindrome.
+28. Count vowels and consonants.
+29. Find the frequency of a specific character.
+30. Remove all whitespace manually.
+31. Capitalize the first letter of every word.
+32. Find the largest and smallest element in a list.
+33. Find the second largest element without sorting.
+34. Calculate the average of a list.
+35. Check if a list is sorted.
+36. Reverse a list in-place.
+37. Remove duplicates without using `set()`.
+38. Merge two sorted lists.
+39. Rotate a list to the right by K positions.
+40. Count occurrences of each element.
+41. Find the Missing Number (1 to N).
+42. Implement Linear Search.
+43. Implement Binary Search.
+44. Implement Bubble Sort.
+45. Implement Selection Sort.
+46. Find intersection of two lists.
+47. Find union of two lists without duplicates.
+48. Extract all even numbers from a list.
+49. Find a Peak Element.
+50. Move all zeros to the end.
 
-* **Avoid "Magic Numbers":** Never use raw numbers in your logic. Use variables with clear names.
-* **The Power of `range()`:** Master `range(start, stop, step)`. It is the heart of most Python logic.
-* **DRY (Don't Repeat Yourself):** If you copy-paste code more than twice, put it in a function.
-* **Use `enumerate()`:** Instead of manually tracking an index in a loop, use `for i, val in enumerate(list):`.
-* **Your Personal Style Guide:** Since you prefer explicit parentheses, keep them consistent. It helps you see the "boundaries" of your logic.
+---
 
-> **Crucial Advice:** When you fail—and you will—do **not** Google the answer immediately. Stare at the problem for 20 minutes. Draw it on paper. The "growth" happens in the 20 minutes of struggle, not in the 2 seconds of reading a solution.
+## Phase 3 – The "Engineer" (Days 51–75)
+**Focus: Matrices, Dictionaries, Recursion, OOP**
 
-Would you like me to walk through the "Manual Solution" for Day 13 (Prime Numbers) to show you how to think through it step-by-step?
+51. Create and print a 3x3 matrix.
+52. Add two 3x3 matrices.
+53. Multiply two 3x3 matrices.
+54. Find transpose of a matrix.
+55. Sum of main diagonal.
+56. Check if matrix is Identity.
+57. Find row with maximum sum.
+58. Flatten a 2D matrix.
+59. Sort dictionary by values.
+60. Merge two dictionaries (sum overlapping keys).
+61. Map two lists into a dictionary.
+62. Find longest word in sentence.
+63. Check if two strings are Anagrams.
+64. First non-repeating character.
+65. Replace a word without `.replace()`.
+66. Function using `*args` returning product.
+67. Recursive factorial.
+68. Recursive Fibonacci.
+69. Recursive sum of list.
+70. Basic email validation.
+71. Basic calculator (if-elif).
+72. Rock, Paper, Scissors logic.
+73. Random password generator.
+74. Dice roll simulation (1000 times).
+75. Create Student class with grade method.
+
+---
+
+## Phase 4 – The "Master" (Days 76–100)
+**Focus: Data Structures & Algorithms**
+
+76. Bank Account class.
+77. Stack implementation.
+78. Queue implementation.
+79. Balanced Parentheses using Stack.
+80. Caesar Cipher.
+81. Majority Element.
+82. Square Root using Babylonian Method.
+83. Two Sum problem.
+84. Maximum Subarray Sum (Kadane’s Algorithm).
+85. Linked List implementation.
+86. Reverse Singly Linked List.
+87. Detect cycle in Linked List.
+88. Insertion Sort.
+89. Quick Sort.
+90. Merge Sort.
+91. Shortest & Longest word in file.
+92. Count lines, words, characters in file.
+93. Intersection of two arrays using dictionary.
+94. Climbing Stairs (Dynamic Programming).
+95. Longest Common Prefix.
+96. Validate Sudoku sub-grid.
+97. Circular Queue.
+98. Median of two sorted arrays.
+99. Pascal’s Triangle.
+100. Terminal-based To-Do List with file persistence.
+
+---
+
+## Rules
+
+- One problem per day.
+- One file per problem.
+- No skipping.
+- No shortcuts unless allowed.
+- Push daily.
+- Refactor after each phase.

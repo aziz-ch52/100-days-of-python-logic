@@ -1,20 +1,23 @@
-# Leap Year Calculator using strict Gregorian calendar rules
+# Leap Year Calculator using Strict Gregorian Calendar Rules
 
 # Step 1: Take input from the user and convert it into an integer
-year = int(input("Please Enter The Year To Check: "))
+year = int(input("Enter a year to check: "))
 
-# Step 2: Check leap year conditions
+# Step 2: Apply Gregorian leap year rules step-by-step
+# Rule 1: If year is divisible by 400 → It IS a leap year
+if year % 400 == 0:
+    print("The year is a Leap Year")
 
-# Condition 1:
-# If year is divisible by 4 AND not divisible by 100
-# OR
-# Condition 2:
-# If the year is divisible by 400
-# Then it is a leap year
+# Rule 2: If year is divisible by 100 (but not 400) → NOT a leap year
+elif year % 100 == 0:
+    print("The year is NOT a Leap Year")
 
-if (year % 4 == 0 and year % 100 != 0) or (year % 400 == 0):
-    print("The Year Is Leap Year")
+# Rule 3: If year is divisible by 4 (but not 100) → It IS a leap year
+elif year % 4 == 0:
+    print("The year is a Leap Year")
+
+# Rule 4: All other years → NOT a leap year
 else:
-    print("The Year Is Not Leap Year")
+    print("The year is NOT a Leap Year")
 
-# END
+# End of Program

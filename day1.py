@@ -1,10 +1,15 @@
-# Checking A Number Is Even Or Odd
+# Program to Check Whether a Number is Even or Odd
 
-num = int(input("INPUT A NUMBER"))
+# Step 1: Take integer input from the user
+num = int(input("Enter a number: "))
 
+# Step 2: Use the modulus operator to check the remainder when divided by 2
+# If remainder is 0 → Even number
+# If remainder is not 0 → Odd number
 if num % 2 == 0:
-    print("THE NUMBER IS EVEN")
+    print("The number is EVEN")
 else:
-    print("NUMBER IN ODD")
+    print("The number is ODD")
 
-print("Programme Completed")
+# Step 3: Indicate program completion
+print("Program Completed")

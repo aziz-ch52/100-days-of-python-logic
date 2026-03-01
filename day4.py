@@ -2,35 +2,39 @@
 FizzBuzz for Multiples of 3, 5, and 7
 
 Rules:
-- If divisible by 3 → print "Fizz"
-- If divisible by 5 → print "Buzz"
-- If divisible by 7 → print "Boom"
+- If divisible by 3 → print "Fizz."
+- If divisible by 5 → print "Buzz."
+- If divisible by 7 → print "Boom."
 - If divisible by more than one → combine the words
 - Otherwise → print the number
 """
 
-# Loop from 1 to 100 (inclusive)
+# Step 1: Loop through numbers from 1 to 100 (inclusive)
 for num in range(1, 101):
 
-    # Create an empty string to store result
+    # Step 2: Initialize an empty string to build the result
     result = ""
 
-    # Check divisibility by 3
+    # Step 3: Check divisibility conditions independently
+
+    # If divisible by 3, append "Fizz."
     if num % 3 == 0:
         result += "Fizz"
 
-    # Check divisibility by 5
+    # If divisible by 5, append "Buzz."
     if num % 5 == 0:
         result += "Buzz"
 
-    # Check divisibility by 7
+    # If divisible by 7, append "Boom."
     if num % 7 == 0:
         result += "Boom"
 
-    # If no condition matched, print the number
+    # Step 4: If the result is still empty, no condition matched
+    # So print the number itself
     if result == "":
         print(num)
     else:
+        # Otherwise, print the combined result
         print(result)
 
-# END
+# End of Program

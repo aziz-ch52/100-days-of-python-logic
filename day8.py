@@ -7,20 +7,25 @@
 # 0! = 1
 # ---------------------------------------------------------
 
-# Taking input from the user
+# Step 1: Take input from the user
 n = int(input("Enter a non-negative integer: "))
 
-# Check for negative numbers
+# Step 2: Check if the number is negative
+# Factorial is not defined for negative numbers
 if n < 0:
     print("Factorial is not defined for negative numbers.")
+
 else:
-    # Initialize factorial variable to 1
-    # We start with 1 because factorial is multiplication-based
+    # Step 3: Initialize factorial variable
+    # Start with 1 because the multiplication identity is 1
     factorial = 1
 
-    # Loop from 1 to n (inclusive)
+    # Step 4: Loop from 1 to n (inclusive)
     for i in range(1, n + 1):
-        factorial = factorial * i  # Multiply current value
+        # Multiply factorial by current number
+        factorial *= i
 
-    # Output the result
+    # Step 5: Print the final result
     print(f"Factorial of {n} is: {factorial}")
+
+# End of Program

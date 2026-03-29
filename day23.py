@@ -1,4 +1,4 @@
-# Program to Print an Inverted Right-Angled Triangle of '*'
+# Program to Print an Inverted Right-Angled Triangle of '*.'
 
 # Step 1: Define the number of rows (height of triangle)
 rows = 5

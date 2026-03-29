@@ -9,7 +9,7 @@ is_sorted = True
 # Step 3: Traverse the list and compare adjacent elements
 for i in range(len(numbers) - 1):
 
-    # If any element is greater than the next one, list is not sorted
+    # If any element is greater than the next one, the list is not sorted
     if numbers[i] > numbers[i + 1]:
         is_sorted = False
         break

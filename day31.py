@@ -19,7 +19,7 @@ for char in text:
     else:
         result += char
 
-    # Step 5: If space is found, next character should be capitalized
+    # Step 5: If space is found, the next character should be capitalized
     if char == " ":
         capitalize_next = True
 

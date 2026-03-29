@@ -1,4 +1,4 @@
-# Program to Print a Diamond Pattern of '*'
+# Program to Print a Diamond Pattern of '*.'
 
 # Step 1: Define the number of rows for the upper half
 rows = 5

@@ -21,7 +21,7 @@ else:
     # Step 4: Reverse entire list
     reverse(numbers, 0, n - 1)
 
-    # Step 5: Reverse first k elements
+    # Step 5: Reverse the first k elements
     reverse(numbers, 0, k - 1)
 
     # Step 6: Reverse remaining elements

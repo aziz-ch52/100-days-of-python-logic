@@ -14,7 +14,7 @@ for char in text:
 
     # Step 5: Compare each character with the target character
     if char == target:
-        count += 1   # Increase count if match is found
+        count += 1   # Increase count if a match is found
 
 # Step 6: Print the final frequency
 print("Frequency of", target, "is:", count)

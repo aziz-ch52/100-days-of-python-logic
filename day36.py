@@ -7,7 +7,7 @@ numbers = list(map(int, input("Enter numbers separated by space: ").split()))
 left = 0                      # Start of the list
 right = len(numbers) - 1      # End of the list
 
-# Step 3: Swap elements from both ends moving towards the center
+# Step 3: Swap elements from both ends, moving towards the center
 while left < right:
     
     # Swap elements at left and right positions

@@ -15,16 +15,16 @@ else:
     # Step 4: Traverse the list
     for num in numbers:
 
-        # If current number is greater than largest
+        # If the current number is greater than the largest
         if num > largest:
             second_largest = largest   # Update second largest
             largest = num              # Update largest
 
-        # If current number is between largest and second largest
+        # If the current number is between the largest and the second largest
         elif num > second_largest and num != largest:
             second_largest = num
 
-    # Step 5: Check if second largest exists
+    # Step 5: Check if the second largest exists
     if second_largest == float('-inf'):
         print("No second largest element found (all elements may be equal).")
     else:

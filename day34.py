@@ -11,7 +11,7 @@ else:
     # Step 3: Initialize sum variable
     total = 0
 
-    # Step 4: Traverse the list and calculate sum
+    # Step 4: Traverse the list and calculate the sum
     for num in numbers:
         total += num
 

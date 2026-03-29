@@ -11,7 +11,7 @@ reversed_text = ""
 for char in text:
     reversed_text = char + reversed_text
 
-# Step 4: Compare original string with reversed string
+# Step 4: Compare the original string with the reversed string
 if text == reversed_text:
     print("The string is a Palindrome")
 else:

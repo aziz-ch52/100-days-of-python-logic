@@ -1,4 +1,4 @@
-# Program to Print a Pyramid of '*'
+# Program to Print a Pyramid of '*.'
 
 # Step 1: Define the height of the pyramid
 rows = 5

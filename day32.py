@@ -11,11 +11,11 @@ smallest = numbers[0]
 # Step 3: Traverse the list
 for num in numbers:
 
-    # Step 4: Check for largest
+    # Step 4: Check for the largest
     if num > largest:
         largest = num
 
-    # Step 5: Check for smallest
+    # Step 5: Check for the smallest
     if num < smallest:
         smallest = num
 

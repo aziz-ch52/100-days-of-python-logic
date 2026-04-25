@@ -1,13 +1,13 @@
-# Program to Find Sum of a List Using Recursion
+# Program to Find the Sum of a List Using Recursion
 
-# Step 1: Define recursive function
+# Step 1: Define a recursive function
 def recursive_sum(lst):
     """
     Returns the sum of elements in a list using recursion
     """
 
     # Step 2: Base case
-    # If list is empty, sum is 0
+    # If the list is empty, the sum is 0
     if len(lst) == 0:
         return 0
 
@@ -19,7 +19,7 @@ def recursive_sum(lst):
 # Step 4: Take input from the user (space-separated numbers)
 numbers = list(map(int, input("Enter numbers separated by space: ").split()))
 
-# Step 5: Call function and print result
+# Step 5: Call the function and print the result
 print("Sum of list:", recursive_sum(numbers))
 
 # End of Program

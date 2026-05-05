@@ -11,7 +11,7 @@ class BankAccount:
     # Step 3: Method to deposit money
     def deposit(self, amount):
         if amount > 0:
-            self.balance += amount
+            self. balance += amount
             print("Deposited:", amount)
         else:
             print("Invalid deposit amount")

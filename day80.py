@@ -1,6 +1,6 @@
 # Program: Caesar Cipher (Encryption and Decryption)
 
-# Step 1: Define function for Caesar Cipher
+# Step 1: Define a function for the Caesar Cipher
 def caesar_cipher(text, shift, mode):
     """
     Encrypts or Decrypts text using Caesar Cipher
@@ -8,7 +8,7 @@ def caesar_cipher(text, shift, mode):
     Parameters:
         text (str): Input message
         shift (int): Shift value
-        mode (str): 'encrypt' or 'decrypt'
+        mode (str): 'encrypt' or 'decrypt.'
     """
 
     # Step 2: Initialize result string
@@ -20,7 +20,7 @@ def caesar_cipher(text, shift, mode):
     # Step 4: Traverse each character
     for char in text:
 
-        # Check if character is alphabet
+        # Check if a character is an alphabet
         if char.isalpha():
 
             # Determine ASCII base (uppercase or lowercase)

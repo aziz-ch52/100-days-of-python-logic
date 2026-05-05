@@ -1,6 +1,6 @@
 # Program: Check Balanced Parentheses using Stack
 
-# Step 1: Define function to check balance
+# Step 1: Define a function to check the balance
 def is_balanced(expression):
     """
     Returns True if parentheses are balanced, else False
@@ -17,7 +17,7 @@ def is_balanced(expression):
         ']': '['
     }
 
-    # Step 4: Traverse each character in expression
+    # Step 4: Traverse each character in the expression
     for char in expression:
 
         # If opening bracket, push to stack
@@ -31,18 +31,18 @@ def is_balanced(expression):
 
             top = stack.pop()
 
-            # Check if popped element matches
+            # Check if the popped element matches
             if pairs[char] != top:
                 return False
 
-    # Step 5: If stack is empty, it's balanced
+    # Step 5: If the stack is empty, it's balanced
     return len(stack) == 0
 
 
 # Step 6: Take input from user
 expr = input("Enter expression: ")
 
-# Step 7: Check and print result
+# Step 7: Check and print the result
 if is_balanced(expr):
     print("Balanced")
 else:

@@ -4,7 +4,7 @@
 def quick_sort(arr):
 
     # Step 2: Base case
-    # If list has 0 or 1 element, it is already sorted
+    # If the list has 0 or 1 element, it is already sorted
     if len(arr) <= 1:
         return arr
 

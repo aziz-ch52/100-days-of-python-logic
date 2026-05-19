@@ -13,7 +13,7 @@ class Node:
 # Step 2: Define LinkedList class
 class LinkedList:
 
-    # Constructor to initialize empty linked list
+    # Constructor to initialize an empty linked list
     def __init__(self):
         self.head = None
 
@@ -22,7 +22,7 @@ class LinkedList:
 
         new_node = Node(data)
 
-        # If list is empty
+        # If the list is empty,
         if self.head is None:
             self.head = new_node
             return
@@ -46,7 +46,7 @@ class LinkedList:
             slow = slow.next
             fast = fast.next.next
 
-            # If both pointers meet, cycle exists
+            # If both pointers meet, a cycle exists
             if slow == fast:
                 return True
 
@@ -54,7 +54,7 @@ class LinkedList:
         return False
 
 
-# Step 5: Create linked list
+# Step 5: Create a linked list
 linked_list = LinkedList()
 
 # Step 6: Add nodes
@@ -67,7 +67,7 @@ linked_list.append(40)
 # Last node points back to second node
 linked_list.head.next.next.next.next = linked_list.head.next
 
-# Step 8: Check for cycle
+# Step 8: Check for a cycle
 if linked_list.has_cycle():
     print("Cycle Detected")
 else:

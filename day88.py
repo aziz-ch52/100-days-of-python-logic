@@ -17,7 +17,7 @@ for i in range(1, len(numbers)):
         numbers[j + 1] = numbers[j]
         j -= 1
 
-    # Step 5: Insert key at correct position
+    # Step 5: Insert the key at the correct position
     numbers[j + 1] = key
 
 # Step 6: Print sorted list

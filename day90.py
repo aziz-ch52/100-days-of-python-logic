@@ -4,14 +4,14 @@
 def merge_sort(arr):
 
     # Step 2: Base case
-    # If array has 1 or fewer elements, it is already sorted
+    # If the array has 1 or fewer elements, it is already sorted
     if len(arr) <= 1:
         return arr
 
     # Step 3: Find middle index
     mid = len(arr) // 2
 
-    # Step 4: Divide array into left and right halves
+    # Step 4: Divide the array into left and right halves
     left_half = merge_sort(arr[:mid])
     right_half = merge_sort(arr[mid:])
 
